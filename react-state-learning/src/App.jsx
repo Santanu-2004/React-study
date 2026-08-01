@@ -1,17 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 import Counter from './Counter'
 import LikeButton from './LikeButton'
+import LudoGame from './LudoGame'
 
 function App() {
   return (
     <>
-      <h1>Like the page now</h1>
+      {/* <h1>Like the page now</h1> */}
       {/* <Counter/> */}
       <LikeButton/>
+      <h1>lets Play Ludo</h1>
+      <LudoGame/>
     </>
   )
 }
