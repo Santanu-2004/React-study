@@ -8,7 +8,8 @@ export default function Counter2() {
   };
 
   let disCount = () => {
-    setCount(count - 1);
+    count <= 0 ? setCount(0) : setCount(count - 1);
+    // setCount(count - 1);
   };
 
   return (
