@@ -12,12 +12,12 @@ export default function App() {
     {
       img : "https://plus.unsplash.com/premium_photo-1661766386981-1140b7b37193?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       buttonText : "Underserved",
-      color: "#ba34eb"
+      color: "#9234eb",
     },
     {
       img : "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       buttonText : "UnderBank",
-      color: "black",
+      color: "#ba34eb",
     },
   ]
   return (
