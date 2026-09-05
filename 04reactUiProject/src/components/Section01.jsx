@@ -2,11 +2,11 @@ import React from 'react'
 import Navbar from './Navbar'
 import HeroContent from './HeroContent'
 
-const Section01 = () => {
+const Section01 = (props) => {
   return (
     <>
     <Navbar/>
-    <HeroContent/>
+    <HeroContent users={props.users}/>
     </>
   )
 }

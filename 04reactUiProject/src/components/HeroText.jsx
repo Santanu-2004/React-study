@@ -5,7 +5,7 @@ import Arrow from "./Arrow";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col md:w-1/3 justify-between h-80% px-5 mx-3">
+    <div className="flex flex-col md:w-1/3 justify-between h-80% mx-3">
       <TextMain/>
       <Arrow />
     </div>

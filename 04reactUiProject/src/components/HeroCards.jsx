@@ -1,11 +1,26 @@
-import React from 'react'
+import React from "react";
+import Cards from "./Cards";
 
-const HeroCards = () => {
+const HeroCards = (props) => {
   return (
-    <div className='w-full md:w-2/3 bg-fuchsia-500 h-100% px-5 mx-6'>
-        HeroCards
-    </div>
-  )
-}
+    <div className="w-full md:w-2/3 h-80% px-5 gap-8 flex justify-between shrink-0">
+      {props.users.map(function (elem, idx) {
+        return (
+          <Cards
+            key={idx}
+            color={elem.color}
+            id={idx}
+            img={elem.img}
+            buttonText={elem.buttonText}
+          />
+        );
+      })}
 
-export default HeroCards
+      {/* <Cards />
+      <Cards />
+      <Cards /> */}
+    </div>
+  );
+};
+
+export default HeroCards;
